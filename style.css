@@ -1,3 +1,10 @@
+body {
+background-color:black;
+
+
+}
+
+
 p {
   color: white;
   font-family:metropolis;
@@ -18,5 +25,16 @@ a {
    font-family:metropolis;
   }
 
- 
+@media only screen and (min-width: 650px) {
+    body {
+margin-left: 400px;
+margin-right: 400px;"
+    }
+}
+
+@media only screen and (max-width: 649px) {
+    img.blog {
+margin-left: 2px;
+margin-right: 2px;"
+
 }
