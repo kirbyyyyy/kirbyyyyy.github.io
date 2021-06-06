@@ -1,9 +1,11 @@
-body {
-background-color:black;
+  body {
+  background-color:black;
 
+  }
 
-}
-
+  .topnav-right {
+  float: right;
+  }
 
 p {
   color: white;
@@ -20,21 +22,20 @@ p {
   text-align: center;
   }
 
-a {
+  a {
   color: white;
    font-family:metropolis;
   }
 
-@media only screen and (min-width: 650px) {
+  @media only screen and (min-width: 650px) {
     body {
-margin-left: 400px;
-margin-right: 400px;"
+  margin-left: 400px;
+  margin-right: 400px;"
     }
-}
+  }
 
-@media only screen and (max-width: 649px) {
-    img.blog {
-margin-left: 2px;
-margin-right: 2px;"
+  @media only screen and (max-width: 649px) {
+  margin-left: 2px;
+  margin-right: 2px;"
 
 }
